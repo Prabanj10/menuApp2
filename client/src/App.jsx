@@ -13,7 +13,7 @@ const App = () => {
     <Header/>
     <Routes>
     <Route path='/' element = {<Menu/>} />
-    <Route path='/menu/:menuID' element = {<Menu/>} />
+    <Route path='/menu/:menuId' element = {<Menu/>} />
     <Route path='/createmenu' element = {<CreateMenu/>}/>
     <Route path='/createmenu/createmenuitem/:menuId' element = {<CreateMenuItem/>}/>
 

@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 
 const Menu = () => {
 
-  const { menuID } = useParams(); 
+  const { menuId } = useParams(); 
   const [menu, setMenu] = useState([
     {
         "_id": "679c03b0a227e137d48d3d88",
@@ -33,9 +33,9 @@ const Menu = () => {
 
   useEffect(() => {
     const fetchMenuItems = async () => {
-      if(menuID){
+      if(menuId){
       try {
-        const response = await fetch(`http://localhost:3000/api/menu-items/${menuID}`);
+        const response = await fetch(`http://localhost:3000/api/menu-items/${menuId}`);
         const data = await response.json();
         setMenu(data);
         console.log(data)
@@ -45,7 +45,7 @@ const Menu = () => {
     };}
 
     fetchMenuItems();
-  }, [menuID]);
+  }, [menuId]);
 
   return (
     <div>
