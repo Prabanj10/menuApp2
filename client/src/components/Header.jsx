@@ -40,6 +40,7 @@ const Header = () => {
             </h2>
           </Link>
         </div>
+        <div className="hidden sm:inline">
           <Link to="/createmenu">
             <h2
               className={mIsClicked ? 'text-[#0796EF]' : 'hover:text-[#0796EF]'}
@@ -51,6 +52,7 @@ const Header = () => {
               create menu
             </h2>
           </Link>
+          </div>
         <h2 className="hidden sm:inline">Make a reservation</h2>
         <h2 className="hidden sm:inline">contatct us</h2>
 

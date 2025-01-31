@@ -62,13 +62,13 @@ const Menu = () => {
 
       <div className="bg-im2"></div>
       <div className="bg-im3 relative flex justify-center items-center">
-        <div className=" border border-1 sm:min-h-[416px] h-auto  border-white pt-7 pb-15 min-h-[466px] w-[85%] ">
+        <div className=" border border-1 sm:min-h-[416px] h-auto flex flex-col   border-white pt-7 pl-5 pr-5 pb-15 min-h-[466px] w-[85%] ">
           <div className=' flex justify-center'>
           <h1 className="text-white font-[Oswald] mt-5 max-w-30 sm:max-w-full indent-3 font-semibold text-[30px] sm:text-[50px] text-[#800020] [text-shadow:4px_3px_0px_#800020]">
             BRUNCH COCKTAILS
           </h1>
           </div>
-          <div className='flex max-w-fit flex-wrap gap-10 justify-start ml-3 mt-5 sm:ml-15 sm:mt-10 '>
+          <div className='flex max-w-fit flex-wrap gap-10 justify-start pl-3 pt-5 sm:pl-15 sm:pt-10 '>
 
           {menu && menu.map(item => (
               <Item key={item._id} item={item} /> 
