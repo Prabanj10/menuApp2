@@ -1,0 +1,48 @@
+.bg-im {
+    background-image: 
+      linear-gradient(90deg, rgba(0, 0, 0, 0.71) 0%, rgba(0, 0, 0, 0.5) 100%),
+      url('/src/assets/menu.png');
+    background-size: cover;
+    background-position: center;
+    height: 311px ;
+  }
+
+.bg-im2{
+    background-color: black;
+    background-image: 
+      url('/src/assets/Rectangle107.png');
+    background-size: cover;
+    background-position: center;
+    height: 79px ;
+   
+}
+.bg-im3{
+    background-image: 
+      url('/src/assets/Rectangle116.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 672px ;
+   
+}
+
+  
+
+  @media (max-width: 600px) {
+    .bg-im{
+        height: 260px;
+
+    }
+    .bg-im2{
+height: 60px;
+
+
+    }
+    .bg-im3{
+        min-height: 300px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.logotext{
+    font-family: Oswald;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 41.87px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 154px;
+
+}
+
+@media (max-width: 600px) {
+    .logotext{display: none;}
+}
