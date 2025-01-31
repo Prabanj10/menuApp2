@@ -7,6 +7,7 @@ import { useState } from 'react';
 
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
+  const [mIsClicked, setMIsClicked] = useState(false);
   const [isOpen,setIsOpen] = useState(false)
   return (
     <div className="flex justify-center sm:justify-normal bg-[#121618] w-100% h-[40px] sm:h-[100px] ">
@@ -32,12 +33,24 @@ const Header = () => {
               className={isClicked ? 'text-[#0796EF]' : 'hover:text-[#0796EF]'}
               onClick={() => {
                 setIsClicked(true);
+                setMIsClicked(false);
               }}>
               {' '}
               Menu
             </h2>
           </Link>
         </div>
+          <Link to="/createmenu">
+            <h2
+              className={mIsClicked ? 'text-[#0796EF]' : 'hover:text-[#0796EF]'}
+              onClick={() => {
+                setMIsClicked(true);
+                setIsClicked(false);
+              }}>
+              {' '}
+              create menu
+            </h2>
+          </Link>
         <h2 className="hidden sm:inline">Make a reservation</h2>
         <h2 className="hidden sm:inline">contatct us</h2>
 
