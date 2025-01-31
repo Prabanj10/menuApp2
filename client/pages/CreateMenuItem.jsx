@@ -12,7 +12,7 @@ const CreateMenuItem = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/api/menu-items', { menuId, name, description, price });
+      await axios.post('/api/menu-items', { menuId, name, description, price });
       window.location.reload();
     } catch (error) {
       console.error('Failed to create menu item:', error);

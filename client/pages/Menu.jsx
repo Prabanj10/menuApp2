@@ -35,7 +35,7 @@ const Menu = () => {
     const fetchMenuItems = async () => {
       if(menuId){
       try {
-        const response = await fetch(`http://localhost:3000/api/menu-items/${menuId}`);
+        const response = await fetch(`/api/menu-items/${menuId}`);
         const data = await response.json();
         setMenu(data);
         console.log(data)

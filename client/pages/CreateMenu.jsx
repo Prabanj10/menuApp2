@@ -12,7 +12,7 @@ const CreateMenu = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/api/menus', { name, description })
+      await axios.post('/api/menus', { name, description })
       .then((res)=>{
         const createdMenu = res.data;
         navigate(`createmenuitem/${createdMenu._id}`)
