@@ -8,7 +8,7 @@ const Item = ({item}) => {
     <h1 className="">{item.name}</h1>
     <h1>${item.price}</h1>
     </div>
-    <p className=" font-[Kelly-Slab] text-[14px] sm:text-[18px] break-words">Please food, drinks, and brunch. If you'd like to place an order, use the "Order Online" button located below the menu.</p>
+    <p className=" font-[Kelly-Slab] text-[14px] sm:text-[18px] break-words">{item.description}</p>
     </div>
     </div>
   )

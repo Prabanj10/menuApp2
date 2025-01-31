@@ -17,6 +17,22 @@ const Menu = () => {
         "_id": "679c03b0a227e137d48d3d88",
         "menuId": "679c01eaa227e137d48d3d86",
         "name": "LYCHEETINI",
+        "description": "A refreshing lychee cocktail lychee cocktaillychee cocktail lychee cocktail vlychee cocktail.",
+        "price": 10.99,
+        "__v": 0
+    },
+    {
+        "_id": "679c03b0a227e137d48d3d88",
+        "menuId": "679c01eaa227e137d48d3d86",
+        "name": "cooldrink",
+        "description": "A refreshing cool and best lychee cocktail.",
+        "price": 10.99,
+        "__v": 0
+    },
+    {
+        "_id": "679c03b0a227e137d48d3d88",
+        "menuId": "679c01eaa227e137d48d3d86",
+        "name": "LYCHEETINI",
         "description": "A refreshing lychee cocktail.",
         "price": 10.99,
         "__v": 0
@@ -24,8 +40,8 @@ const Menu = () => {
     {
         "_id": "679c03c1a227e137d48d3d8a",
         "menuId": "679c01eaa227e137d48d3d86",
-        "name": "LYu",
-        "description": "A refreshing lychee cocktail.",
+        "name": "New drink",
+        "description": "A cocktail.",
         "price": 10.99,
         "__v": 0
     }
