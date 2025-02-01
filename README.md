@@ -1,5 +1,5 @@
 ### **Screenshots**
 
 - **Homepage**  
-  ![Mobile version](./screenshots/mobilescreenshot.png)
+  ![Mobile version](./screenshots/mobilescreenshot.jpg)
   
