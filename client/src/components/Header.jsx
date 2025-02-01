@@ -10,7 +10,7 @@ const Header = () => {
   const [mIsClicked, setMIsClicked] = useState(false);
   const [isOpen,setIsOpen] = useState(false)
   return (
-    <div className="flex justify-center sm:justify-normal bg-[#121618] w-full h-[40px] sm:h-[100px] ">
+    <div className="flex justify-center gap-5 sm:justify-normal bg-[#121618] w-full h-[40px] sm:h-[100px] ">
       <div className=" flex items-center gap-1 mt-[40px] sm:mt-[95px] sm:ml-[168px]">
         <div>
           <img
