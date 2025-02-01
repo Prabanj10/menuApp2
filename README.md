@@ -6,7 +6,7 @@
 
   
 - **Homepage desktop version**  
-  ![desktop version](desktop1.png)
-  ![desktop version](desktop2.png)
-  ![desktop version](desktop3.png)
+  ![desktop version](Screenshots/desktop1.png)
+  ![desktop version](Screenshots/desktop2.png)
+  ![desktop version](Screenshots/desktop3.png)
   
