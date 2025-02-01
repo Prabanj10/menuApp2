@@ -29,14 +29,7 @@ const Menu = () => {
         "price": 10.99,
         "__v": 0
     },
-    {
-        "_id": "679c03b0a227e137d48d3d88",
-        "menuId": "679c01eaa227e137d48d3d86",
-        "name": "LYCHEETINI",
-        "description": "A refreshing lychee cocktail.",
-        "price": 10.99,
-        "__v": 0
-    },
+
     {
         "_id": "679c03c1a227e137d48d3d8a",
         "menuId": "679c01eaa227e137d48d3d86",
@@ -50,6 +43,7 @@ const Menu = () => {
   useEffect(() => {
     const fetchMenuItems = async () => {
       if(menuId){
+        setMenu([])
       try {
         const response = await fetch(`/api/menu-items/${menuId}`);
         const data = await response.json();
