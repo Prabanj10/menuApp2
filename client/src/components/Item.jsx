@@ -3,7 +3,7 @@
 const Item = ({item}) => {
   return (
     <div className="text-white">
-    <div className="w-[290px] h-[66px]  sm:w-[467px] flex flex-col gap-1  ">
+    <div className="w-[270px] h-[66px]  sm:w-[467px] flex flex-col gap-1  ">
     <div className=" flex justify-between  uppercase font-[Oswald] text-[16px]  sm:text-[26px]">
     <h1 className="">{item.name}</h1>
     <h1>${item.price}</h1>
