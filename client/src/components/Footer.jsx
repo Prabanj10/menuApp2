@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="border border-1  rounded-2xl mt-10 border-white sm:w-80 sm:h-28 w-[85%] h-[150px]"></div>
       <div className="border border-1  rounded-2xl mt-10 border-white sm:w-80 sm:h-28 w-[85%] h-[150px]">
       </div>
-      <img className='absolute top-10 left-43 sm:left-160 sm:top-20 ' src={Logo} alt="" />
+      <img className='absolute top-10 left-35 sm:left-160 sm:top-20 ' src={Logo} alt="" />
       <div className="border border-1  rounded-2xl mt-10 border-white sm:w-80 sm:h-28 w-[85%] h-[150px]"></div>
     </div>
   );
